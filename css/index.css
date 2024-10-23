@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+   
+   
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+     background-image: linear-gradient(rgba(9,0,77,0.65),rgb(131, 28, 28)),url(https://archidom.ru/upload/iblock/20f/20ff85cea4e3df321c747e6bfb3a9809.jpg);
+    background-size: cover;
+}
+nav {
+    position: relative;
+    width: 800px;
+    height: 50px;
+    background-color:rgb(59, 56, 56);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+nav {
+    padding: 12px;
+    background-color: rgb(90, 15, 15);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    transition-duration: 1s;
+}
+nav:hover {
+    background-color: rgb(12, 17, 75);
+    color: white;
+}
